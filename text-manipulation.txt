@@ -1,0 +1,16 @@
+names.txt
+
+Suman
+Kumar
+Ashish
+Ahzar
+Reddy
+
+cat names.txt | tr 'a-z' 'A-Z'   ( makes lower characters into upper case ) 
+awk '{print toupper($0)}' names.txt   ( makes each line upper case ) 
+grep -i 'a' names.txt       ( find lines containing letter a ) 
+sed 's/suman/meghana/' names.txt     ( Replaces suman with meghana ) 
+
+
+
+
